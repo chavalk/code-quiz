@@ -1,36 +1,45 @@
+/* Font family for body */
 body {
     font-family: sans-serif;
 }
 
-a {
+/* Custom modification for view highscores button */
+#view-highscores {
+    display: inline;
     color: darkmagenta;
-    text-decoration: none;
+    background-color: white;
 }
 
+/* Custom modifications for time and seconds labels */
 .time,
 #seconds {
     float: right;
 }
 
+/* Custom modifications for container */
 .container {
     margin: auto;
     width: 40%;
 }
 
+/* Custom modifications for h1  */
 h1 {
     text-align: center;
     padding-top: 50px;
 }
 
+/* Custom modifications for h2  */
 h2 {
     padding-top: 50px;
 }
 
+/* Custom modifications for paragraph */
 p {
     line-height: 1.6;
     
 }
 
+/* Custom modifications for buttons */
 button {
     padding: 10px;
     background-color: darkmagenta;
@@ -42,10 +51,13 @@ button {
     display: list-item;
 }
 
+/* Custom modifications for start quiz button */
 #start-quiz {
     margin: 0 auto;
     display: block;
 }
+
+/* Buttons hover customization */
 button:hover {
     opacity: 0.6;
 }
