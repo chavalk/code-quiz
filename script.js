@@ -226,6 +226,7 @@ function fifthQuestion(){
 
 // Function to let user know the quiz is done, to display the score, and ask for initials to save score.
 function allDone(){
+    clearInterval(interval);
     removeQuizBtns();
     removeAns();
     createAllDoneElements();
@@ -251,7 +252,6 @@ function highScores(){
     }
     goBackBtn.onclick = function(){
         goBack();
-        resetTimer();
     }
 }
 
@@ -319,11 +319,6 @@ function deductTime(){
 // Function to deduct points from score when user selects wrong answer.
 function deductScore(){
     score = score - 20;
-}
-
-// Function to reset timer.
-function resetTimer(){
-    seconds = 75;
 }
 
 // Function to remove quiz buttons after last question is shown to user.
@@ -400,6 +395,9 @@ function removeHighscores(){
 
 // Function to add initial page after user clicks button to go back.
 function addInitialPage(){
+    seconds = 75;
+    score = 100;
+    secondsDisplay.textContent = seconds;
     viewHighscores.style.visibility = "visible";
     secondsDisplay.style.visibility = "visible";
     timeLabel.style.visibility = "visible";
@@ -408,5 +406,21 @@ function addInitialPage(){
     startButton.style.display = "block";
 }
 
+function viewHighscoresFunct(){
+    hideNav();
+    removeQuizIntro();
+    quizQuestion = document.createElement("h2");
+    container.appendChild(quizQuestion);
+    createHighscoresElements(); 
+    clearHsBtn.onclick = function(){
+        localStorage.removeItem("user");
+        localStorage.removeItem("score");
+        highScoresList.remove();
+    }
+    goBackBtn.onclick = function(){
+        goBack();
+    }
+}
 // Event listener for start quiz button.
 startButton.addEventListener("click", startTimer);
+viewHighscores.addEventListener("click", viewHighscoresFunct);
