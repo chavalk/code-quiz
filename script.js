@@ -294,7 +294,7 @@ function removeAns(){
         line.remove();
         correctAnswer.remove();
         wrongAnswer.remove();
-    }, 1000)
+    }, 500)
 }
 
 // Function to create message to user that selection was correct.
