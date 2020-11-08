@@ -22,9 +22,15 @@ h1 {
     padding-top: 50px;
 }
 
+h2 {
+    padding-top: 50px;
+}
+
 p {
     line-height: 1.6;
+    
 }
+
 button {
     padding: 10px;
     background-color: darkmagenta;
@@ -32,10 +38,14 @@ button {
     border-radius: 2px;
     border: none;
     cursor: pointer;
+    margin-bottom: 2px;
+    display: list-item;
+}
+
+#start-quiz {
     margin: 0 auto;
     display: block;
 }
-
 button:hover {
     opacity: 0.6;
 }
