@@ -20,8 +20,18 @@ After the user enters initials and clicks submit, the initials and score are sav
 
 ![Code quiz](./assets/images/highscores.png)
 
+## Technologies used
+
+* HTML
+* CSS
+* JavaScript
+
 ## URL
 
 Here is a link to the live website:
 
 https://chavalk.github.io/code-quiz/
+
+## Contact Information
+
+Email: chavalk@hotmail.com
