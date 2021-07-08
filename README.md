@@ -1,37 +1,41 @@
-# Code-Quiz
+# Code Quiz
 
-This project involved creating a coding quiz. It required to create the initial page where the user can click start quiz to see the first question and to start a timer of 75 seconds.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Code quiz](./assets/images/initial.png)
+## Description
 
-After the user clicks start quiz, the timer starts counting down to zero and the user is presented with the first question and the available answers.
+A coding quiz built to test your knowledge of HTML, CSS, and JavaScript.
 
-![Code quiz](./assets/images/firstquestion.png)
+## What the project does
 
-After ansering the first question, the user is presented with the second question and its available answers. If the user selects the correct answer, a correct answer message will display at the bottom of the second question for one second. If the user selects the wrong answer, the same message will appear for one second but it will display wrong instead.
+The project is a five question quiz designed to test your knowledge of HTML, CSS, and JavaScript. Below is a GIF showing the application in action.
 
-Each question follows a similar patter depending on the response the user selects. If the user selects the wrong answer for a question, ten seconds are deducted from the timer and twenty points are deducted from the score. The user starts with a score of 100.
+![code-quiz](./assets/images/code-quiz.gif)
 
-After the last question is answered, the user will be alerted that the quiz is done and will be shown the score. The user will also have a field to enter initials and a submit button.
+## Why is the project useful
 
-![Code quiz](./assets/images/alldone.png)
+The project allows new developers to do a quick quiz and test their knowledge of HTML, JavaScript, and CSS.
 
-After the user enters initials and clicks submit, the initials and score are saved in the browser. The user is also shown the highschores. The user can click clear highschores to delete the information or the user can click on the go back button. The go back button takes the user back to the initial page.
+## How can users get started with this project
 
-![Code quiz](./assets/images/highscores.png)
+Simply navigate to the deployed version of the application listed below to see the refactored app in action.
 
-## Technologies used
+https://chavalk.github.io/code-quiz/
+
+## What technologies were used with this project
 
 * HTML
 * CSS
 * JavaScript
 
-## URL
+## Where can users get help with your project
 
-Here is a link to the live website:
+My GitHub username is: chavalk
 
-https://chavalk.github.io/code-quiz/
+Link: https://github.com/chavalk
 
-## Contact Information
+If you have additional questions, feel free to reach me at chavalk@hotmail.com.
 
-Email: chavalk@hotmail.com
+## Who maintains and contributes to the project
+
+Currently I'm the only person maintaining and contributing to the project.
